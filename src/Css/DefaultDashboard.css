@@ -1,0 +1,130 @@
+h1 {
+  margin-top: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+h2 {
+    border-style: solid;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+h5 {
+  margin: 10px;
+  align-content: left;
+}
+
+#robotstatue {
+  margin-top: 8%;
+  margin-left: -4%;
+  left: 100px;
+  text-align: left;
+  width: 75%;
+  height: 50%;
+  border-radius: 30px;
+
+}
+.joystick{
+  margin-top: 15px;
+  margin-left: -155px;
+  border-radius: 30px;
+  width: 300px;
+  height: 200px;
+  background:rgb(250, 250, 250);
+  padding-top:40px;
+}
+.konusma-balonu{
+  position: relative;
+  left:25px;
+  top: -15px;
+  width: 0%;
+  height: 0%;
+  border-style: solid;
+  right: 40%;
+  border-bottom:30px solid white;
+  border-left:30px solid transparent;
+  border-right:30px solid transparent;
+  border-top-width: 30px;
+  border-left-width: 15px;
+  border-right-width: 15px;
+  border-color:transparent transparent white  transparent;
+z-index: 1;
+}
+.robot{
+  width: 45%;
+  height:50%;
+  margin-left:5%;
+  float: left;
+
+}
+.paramscreen{
+  margin-top:3%;
+  width: 40%;
+  height:295px;
+  margin-left:-0%;
+  float: left;
+  padding:0.5%;
+  border-radius: 30px;
+}
+
+ .map {
+  width: 50%;
+  height:50%;
+  margin-left:26%;
+  float: left;
+  margin-top: -5%;
+  padding: -15px;
+ }
+ 
+ .battery{
+  float:right;
+ }
+ 
+.buttonn {
+  background-color: #116697;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 14px 12px;
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+  border-radius:30px;
+}
+.vr2 {
+  border-left: 5px solid #2a3336;
+  height: 33%;
+  position:absolute;
+  left: 46.5%;
+  margin-left: -0%;
+  top: 6%;
+  border-radius:3px;
+ margin-top: 0%;
+}
+.vr3 {
+  display: block;
+  border-top: 5px solid #2a3336;
+  margin: 1em 0;
+  padding: 50px;
+  position: absolute;
+  top: 37.2%;
+  width:100%;
+  border-radius:3px;
+  margin-left:-0.3%;
+
+}
+
+.container2{
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}

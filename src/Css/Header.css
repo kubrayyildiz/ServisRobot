@@ -1,0 +1,54 @@
+#stop1 {
+  background-color: none;
+  border-left: 3px solid rgb(120, 120, 120);
+}
+#stop {
+   width: 50px; 
+  background-color: rgb(255, 0, 0);
+  border-radius: 50%;
+}
+#joystick {
+  width: 100px; 
+  background-color: none;
+  border-left: 3px solid rgb(120, 120, 120);
+}
+#robot1 {
+  background-color: none;
+  border-left: 3px solid rgb(120, 120, 120);
+}
+#robot {
+  color: black;
+  font-size: 20px;
+  width: 200px;
+  background-color: none;
+}
+#epik {
+  font-size: 30px;
+  padding-left: 2%;
+}
+#misson {
+  background-color: #333333;
+  border-top: 0ch;
+  width: 300px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-left: 3px solid rgb(120, 120, 120);
+}
+#batterylevel {
+  border-top: 0ch;
+  width: 100px;
+  background-color: #333333;
+  padding-left: 1%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-left: 3px solid rgb(120, 120, 120);
+}
+.headercontainer {
+  position: fixed;
+  z-index:1;
+  width: 100%;
+  
+}
+.epik{
+  margin-left: 2%;
+}

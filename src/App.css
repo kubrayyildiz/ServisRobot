@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+}
+main {
+  width: 100%;
+ background-color: #5f96bb;
+
+}
+
+.title {
+  font-size: 3rem;
+  display: grid;
+  place-items: center;
+}
+
+/* Sidebar */
+.sidebar {
+  background: #116697;
+  color: white;
+  height: 100%;
+  overflow:scroll;
+  position: fixed;
+  z-index: 2;
+}
+.sidebar::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+.top_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 10px;
+
+}
+.logo {
+  font-size:150%;
+  text-shadow:0 0 6px rgb(0, 0, 0);
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bars {
+  width: 5%;
+  margin-top: -10px;
+}
+.hide {
+  display: none;
+}
+.routes {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.link {
+  display: flex;
+  background-color: #4084AB;
+  color: rgb(0, 5, 71);
+  gap: 10px;
+  padding: 28px 10px;
+  border-right: 24px solid transparent;
+  text-decoration: none;
+  transition: 0.01s cubic-bezier(0.1, 0.7, 1, 0.1);
+}
+.link:hover {
+  border-right: 4px solid white;
+  background: #9FC1D5;
+  transition: 0.1s cubic-bezier(0.1, 0.7, 1, 0.1);
+  border-radius: 0 50px;
+}
+.active {
+  border-right: 0px solid white;
+  background: #9FC1D5;
+  border-radius: 0 50px;
+}
+.link_text {
+  white-space: nowrap;
+  font-size: 18px;
+}
+
+.menu {
+  display: flex;
+  color: white;
+
+  padding: 15px 10px;
+  border-right: 4px solid transparent;
+  transition: cubic-bezier(0.1, 0.7, 1, 0.1);
+  justify-content: space-between;
+}
+.menu_item {
+  display: flex;
+  gap: 10px;
+}
+.menu_container {
+  display: flex;
+  flex-direction: column;
+}
+.menu_container .link {
+  padding-left: 20px;
+  border-bottom: #fff 0.5px solid;
+}
+
+.button-9 {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #009688;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 93, 68, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    Ubuntu, sans-serif;
+  font-size: 50%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all 0.2s, box-shadow 0.08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.button-9:disabled {
+  cursor: default;
+}
+
+.button-9:focus {
+  box-shadow: rgba(9, 105, 68, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.2) 0 6px 15px 0, rgba(0, 0, 0, 0.1) 0 2px 2px 0,
+    rgba(50, 151, 211, 0.3) 0 0 0 4px;
+}
+a {
+  color: #041a18;
+  text-decoration: none;
+}
