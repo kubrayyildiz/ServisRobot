@@ -63,7 +63,7 @@ const Header = (props) => {
               }}
               id="joystickicon"
               size={30}
-              color="#6CB4EE"
+              color="#2c7caa"
             ></BsJoystick>
             {showJoystick && (
               <div className="konusma-balonu">

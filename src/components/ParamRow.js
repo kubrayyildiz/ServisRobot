@@ -62,22 +62,22 @@ const ParamRow = (props) => {
       {isEdit && (
         <Col>
           {" "}
-          <input ref={input} type="text" name={value} placeholder={value} />
+          <input className="input" ref={input} type="text" name={value} placeholder={value} />
         </Col>
       )}
 
       {!isEdit && (
         <Col>
-          <IconButton id="a" icon={<FaEdit size={18}/>} onClick={edit}></IconButton>
+          <IconButton className="a" icon={<FaEdit size={25}/>} onClick={edit}></IconButton>
         </Col>
       )}
       {isEdit && (
         <Col>
-          <IconButton id="a" icon={<FaSave size={18}/>} onClick={save}></IconButton>
-          <IconButton id="a" icon={<MdCancel size={18} />} onClick={cancel}></IconButton>
+          <IconButton className="b"   icon={<FaSave size={25} />} onClick={save}></IconButton>
+          <IconButton className="c" icon={<MdCancel size={25} />} onClick={cancel}></IconButton>
         </Col>
       )}
-      <hr size="12" />
+      <hr/>
     </Row>
   );
 };

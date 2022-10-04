@@ -9,7 +9,7 @@
 }
 main {
   width: 100%;
- background-color: #5f96bb;
+ background-color: 	#F0F8FF;
 
 }
 
@@ -21,7 +21,7 @@ main {
 
 /* Sidebar */
 .sidebar {
-  background: #116697;
+  background: #3E606F;
   color: white;
   height: 100%;
   overflow:scroll;
@@ -61,19 +61,21 @@ main {
 }
 .link {
   display: flex;
-  background-color: #4084AB;
-  color: rgb(0, 5, 71);
+  background-color: #80a08f;
+  color: rgb(17, 17, 22);
   gap: 10px;
   padding: 28px 10px;
   border-right: 24px solid transparent;
   text-decoration: none;
+  border-radius: 0 30px;
   transition: 0.01s cubic-bezier(0.1, 0.7, 1, 0.1);
 }
 .link:hover {
   border-right: 4px solid white;
-  background: #9FC1D5;
+  background: #c6cfb4;
   transition: 0.1s cubic-bezier(0.1, 0.7, 1, 0.1);
   border-radius: 0 50px;
+  color: rgb(0, 65, 95);
 }
 .active {
   border-right: 0px solid white;
@@ -88,7 +90,6 @@ main {
 .menu {
   display: flex;
   color: white;
-
   padding: 15px 10px;
   border-right: 4px solid transparent;
   transition: cubic-bezier(0.1, 0.7, 1, 0.1);

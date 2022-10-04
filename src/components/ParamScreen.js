@@ -38,7 +38,7 @@ function ParamScreen(props) {
   } else {
     return (
     <Container >
-          <Row className="title2">
+          <Row className="title2 ">
             <Col className="title3">Charge Params</Col>
             <Col>Description</Col>
             <Col>Value</Col>
