@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ServisRobot/static/css/main.bad1d88c.css",
+    "main.js": "/ServisRobot/static/js/main.b0eb4689.js",
+    "static/js/787.70f3bafe.chunk.js": "/ServisRobot/static/js/787.70f3bafe.chunk.js",
+    "static/media/robot.png": "/ServisRobot/static/media/robot.6009b5a5d1168952cb86.png",
+    "static/media/goal.png": "/ServisRobot/static/media/goal.82e96086091037add593.png",
+    "static/media/charging_station.png": "/ServisRobot/static/media/charging_station.b532cff5b47f4a5bc46a.png",
+    "index.html": "/ServisRobot/index.html",
+    "main.bad1d88c.css.map": "/ServisRobot/static/css/main.bad1d88c.css.map",
+    "main.b0eb4689.js.map": "/ServisRobot/static/js/main.b0eb4689.js.map",
+    "787.70f3bafe.chunk.js.map": "/ServisRobot/static/js/787.70f3bafe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bad1d88c.css",
+    "static/js/main.b0eb4689.js"
+  ]
+}
