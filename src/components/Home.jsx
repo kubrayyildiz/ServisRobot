@@ -6,6 +6,7 @@ import PositionMarker from "../pages/PositionMarker";
 import DefaultDashboard from "../pages/DefaultDashboard";
 import RobotParameters from "../pages/RobotParameters";
 import { Route } from "react-router-dom";
+import { GiConsoleController } from "react-icons/gi";
 
 class Home extends Component {
   state = { ros: null };
@@ -30,6 +31,7 @@ class Home extends Component {
     this.state.ros = new ROSLIB.Ros();
     this.state.ros.on("connection", () => {
       this.setState({ connected: true });
+      console.log("bağlandı");
     });
     this.state.ros.on("close", () => {
       this.setState({ connected: false });
@@ -39,6 +41,7 @@ class Home extends Component {
     });
     this.connect();
     console.log("ros home: " + this.state.ros);
+
   }
   render() {
     return (

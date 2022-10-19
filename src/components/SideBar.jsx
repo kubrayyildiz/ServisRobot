@@ -44,8 +44,6 @@ const routes = [
         name: "Users ",
         icon: <ImUsers size={25}/>,
       },
-    
-    
     ],
   },
  

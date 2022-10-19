@@ -26,7 +26,7 @@ main {
   height: 100%;
   overflow:scroll;
   position: fixed;
-  z-index: 2;
+  z-index: 2;   
 }
 .sidebar::-webkit-scrollbar {
   display: none;
@@ -38,7 +38,6 @@ main {
   align-items: center;
   justify-content: space-between;
   padding: 35px 10px;
-
 }
 .logo {
   font-size:150%;
@@ -61,32 +60,32 @@ main {
 }
 .link {
   display: flex;
-  background-color: #80a08f;
+  background-color: #84adab;
   color: rgb(17, 17, 22);
   gap: 10px;
   padding: 28px 10px;
   border-right: 24px solid transparent;
   text-decoration: none;
-  border-radius: 0 30px;
-  transition: 0.01s cubic-bezier(0.1, 0.7, 1, 0.1);
+ 
 }
 .link:hover {
-  border-right: 4px solid white;
-  background: #c6cfb4;
-  transition: 0.1s cubic-bezier(0.1, 0.7, 1, 0.1);
-  border-radius: 0 50px;
+  background: #75b4b0;
+  border-radius: 30px;
   color: rgb(0, 65, 95);
 }
 .active {
-  border-right: 0px solid white;
   background: #9FC1D5;
-  border-radius: 0 50px;
+  border-radius: 30px;
 }
 .link_text {
   white-space: nowrap;
   font-size: 18px;
 }
-
+.mainBlock {
+  width: calc(100vw - 200px);
+  left: 200px;
+  position: relative;
+}
 .menu {
   display: flex;
   color: white;

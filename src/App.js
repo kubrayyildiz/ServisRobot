@@ -16,8 +16,8 @@ function App() {
           <Route path="/logout" element={<Logout />} /> 
           <Route path="Dashboards/DefaultDashboard" element={<Home />} />
           <Route path="/Joystick" element={<ManualJoystick />} />
-           <Route path="Setup/PositionMarker" element={<PositionMarker />} /> 
-           <Route path="Setup/RobotParameters" element={<RobotParameters />} /> 
+          <Route path="Setup/PositionMarker" element={<PositionMarker />} /> 
+          <Route path="Setup/RobotParameters" element={<RobotParameters />} /> 
           <Route path="/SideBar" element={<SideBar />} />
           <Route path="*" element={<> not found</>} />
         </Routes>
